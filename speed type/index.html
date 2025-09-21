@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Speed Typer</title>
+  </head>
+  <body>
+      <!-- Loader -->
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>Loading...</p>
+  </div>
+
+  <!-- Your existing game content -->
+  <button id="settings-btn" class="settings-btn">
+    <i class="fas fa-cog"></i>
+  </button>
+    <button id="settings-btn" class="settings-btn">
+      <i class="fas fa-cog"></i>
+    </button>
+
+    <div class="settings" id="settings">
+      <form id="settings-form">
+        <label for="difficulty">Difficulty</label>
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </form>
+    </div>
+
+    <div class="container">
+      <h2>⚡ Speed Typer ⚡</h2>
+      <small>Type the word shown below as fast as you can:</small>
+      <h1 id="word"></h1>
+
+      <input
+        type="text"
+        id="text"
+        autocomplete="off"
+        placeholder="Type the word here..."
+      />
+
+      <div class="stats">
+        <p class="time-container">⏳ Time: <span id="time">10s</span></p>
+        <p class="score-container">🏆 Score: <span id="score">0</span></p>
+        <p class="highscore-container">🔥 High Score: <span id="highscore">0</span></p>
+      </div>
+
+      <div class="progress-bar">
+        <div id="progress"></div>
+      </div>
+
+      <div class="extra-stats">
+        <p>Accuracy: <span id="accuracy">100%</span></p>
+        <p>WPM: <span id="wpm">0</span></p>
+      </div>
+
+      <div id="end-game-container" class="end-game-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
