@@ -10,6 +10,7 @@ It automatically slides through images with smooth transitions and includes navi
 👉 https://prqqsx7m-5500.inc1.devtunnels.ms/
 
 
+
 > *(Place this project inside your `htdocs` folder if using XAMPP.)*
 
 ---
