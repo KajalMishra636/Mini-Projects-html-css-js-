@@ -32,8 +32,4 @@ It automatically slides through images with smooth transitions and includes navi
 
 ---
 
-## ⚙️ How to Run Locally
 
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/KajalMishra636/Image-Slider.git
